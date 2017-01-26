@@ -1,0 +1,15 @@
+{
+  "name": "isnochys-syntax",
+  "theme": "syntax",
+  "version": "0.0.0",
+  "description": "\"In space, no one can hear you scream.\" High contrast syntax theme for Atom.",
+  "keywords": [
+    "syntax",
+    "theme"
+  ],
+  "repository": "https://github.com/kbrgl/isnochys-syntax",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}
