@@ -1,7 +1,7 @@
 {
   "name": "isnochys-syntax",
   "theme": "syntax",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "\"In space, no one can hear you scream.\" High contrast syntax theme for Atom.",
   "keywords": [
     "syntax",
