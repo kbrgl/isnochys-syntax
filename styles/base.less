@@ -85,10 +85,6 @@ atom-text-editor .search-results .syntax--marker.current-result .region {
   &.syntax--other.syntax--unit {
     color: @orange;
   }
-
-  &.syntax--interface {
-    color: @light-orange;
-  }
 }
 
 .syntax--storage {
@@ -309,7 +305,8 @@ atom-text-editor .search-results .syntax--marker.current-result .region {
   }
 }
 
-.syntax--html {
+// Remove underlines from HTML markup
+.syntax--html.syntax--tag.syntax--entity.syntax--tag {
     text-decoration: none;
 }
 
@@ -318,8 +315,4 @@ atom-text-editor .search-results .syntax--marker.current-result .region {
 
 atom-text-editor[mini] .scroll-view {
   padding-left: 1px;
-}
-
-.syntax--entity.syntax--tag.syntax--name.syntax--html {
-    text-decoration: none;
 }
